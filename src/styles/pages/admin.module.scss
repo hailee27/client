@@ -1,0 +1,128 @@
+.wrapper {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+}
+.left {
+  border-radius: 20px;
+  flex: 1.1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .edit {
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 610px;
+    min-height: 190px;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    .btnCancel {
+      right: 150px;
+      background-color: tomato;
+    }
+    button {
+      font-weight: 500;
+      width: 100px;
+      padding: 4px;
+      position: absolute;
+      bottom: 6px;
+      right: 24px;
+      background-color: teal;
+      border-radius: 20px;
+      color: #fff;
+    }
+  }
+  .formInput {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    .thumbnail {
+      cursor: pointer;
+      width: 100px;
+      img {
+        border: 1px solid #ccc;
+        object-fit: cover;
+        border-radius: 30px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .inputArea {
+      margin-left: 12px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 12px;
+    }
+    input {
+      width: 70%;
+      font-weight: 500;
+      padding: 8px;
+      border: none;
+      &:focus {
+        outline: none;
+      }
+    }
+    .title {
+      width: 400px;
+      border: 2px solid #ccc;
+      border-radius: 30px;
+    }
+    .url {
+      width: 400px;
+      border: 2px solid #ccc;
+      border-radius: 30px;
+    }
+  }
+}
+i {
+  padding: 10px;
+}
+.dashboard {
+  display: flex;
+  margin: 60px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 18px;
+
+  .thumbnail {
+    width: 70px;
+    height: 60px;
+    img {
+      border-radius: 20px;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+  }
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  display: flex;
+  flex: 0.9;
+  justify-content: center;
+  align-items: center;
+  .wrapper {
+    justify-content: center;
+    align-items: center;
+    height: 660px;
+  }
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1280px;
+  max-width: 100%;
+}
+.content {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
