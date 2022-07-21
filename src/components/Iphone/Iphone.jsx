@@ -189,7 +189,7 @@ export default function Iphone() {
           <label className={styles.picture} htmlFor="inputCoverPic">
             <i className="fa-solid fa-images"></i>
           </label>
-          {dataUser?.profilePicture ? (
+          {dataUser?.coverPicture ? (
             <img
               className={styles.coverPic}
               src={dataUser?.coverPicture}
